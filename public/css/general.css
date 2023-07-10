@@ -1,0 +1,30 @@
+:root {
+    --colorNaranja : #df5837;
+    
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    font-family: 'lato';
+    /* max-width: 1200px; */
+    background-image: url(/img/bg-2_360.png);
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
