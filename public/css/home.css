@@ -3,6 +3,8 @@
 .home__main {
     background-color: #ffffff;
     padding: 10px;
+    margin: 0 auto 30px;
+    width: 90%;
 }
 
 .home__main__article {
@@ -27,6 +29,53 @@
     background-color: var(--colorNaranja);      
 }
 
+.home__aside__section h3{
+    background-color: #ffffff;
+    padding: 10px;
+    font-weight: 900;
+    width: 100%;
+    margin: 20px 0 10px;
+    border: 1px solid rgba(4, 46, 46, 0.4);
+}
+
+.home__aside {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home__aside__section {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+
+.home__aside__section__article {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+
+}
+
+.home__aside__section--ads {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.home__aside__section--ads img {
+    width: 100%;
+}
+
 
 /* TABLET */
 
@@ -36,44 +85,62 @@
         display: flex;
         flex-wrap: wrap;
         width: 90%;
-        margin: 0 auto 30px;
         gap: 2%;
     }
 
     .home__main__article {
-        width: 48%;
-    }
-
-    .home__aside__section {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 10px;
-    }
-
-    .home__aside__section h3{
-        background-color: #ffffff;
-        padding: 10px;
-        font-weight: 900;
-        width: 100%;
-        margin: 20px 0 10px;
-        border: 1px solid rgba(4, 46, 46, 0.4);
+        width: 49%;
     }
 
     .home__aside__section__article {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        background-color: #ffffff;
-        padding: 10px;
         width: 49%;
-        border: 1px solid gray;
-        margin-bottom: 10px;
+    }
 
+    .home__aside__section--ads {
+        gap: 2%;
     }
 
 
+    .home__aside__section--ads img {
+        width: 49%;
+    }
 }
 
+
+/* DESKTOP */
+
+@media (min-width:769px) {
+    
+    .home__box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home__main {
+        margin: 0 0 30px;
+        width: 69%;
+    }
+
+    .home__aside {
+        width: 29%;
+        margin: 0;
+    }
+    
+    .home__aside__section__article {
+        width: 100%;
+    }
+
+    .home__aside__section h3{
+        margin: 0px 0 10px;
+    }
+    
+
+    .home__aside__section--ads {
+        gap: 20px;
+    }
+
+    .home__aside__section--ads img {
+        width: 100%;
+    }
+
+}
