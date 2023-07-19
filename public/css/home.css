@@ -1,5 +1,14 @@
 /* MAIN */
 
+.home__banner {
+    width: 100%;
+    display: none;
+}
+
+.home__box {
+    margin-top: 30px;
+}
+
 .home__main {
     background-color: #ffffff;
     padding: 10px;
@@ -114,7 +123,25 @@
     .home__box {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
+
+    .home__banner {
+     display: block;
+    }
+
+    .home__banner--img {
+        height: 250px;
+        object-fit:contain;
+    }
+/* 
+    Otra Opción del Banner con Background en vez de con img
+    .home__banner--box-image {
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
 
     .home__main {
         margin: 0 0 30px;
