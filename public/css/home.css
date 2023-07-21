@@ -18,6 +18,7 @@
 
 .home__main__article {
     width: 100%;
+    background-color: #fff;
 }
 
 .home__main__article img {
@@ -132,7 +133,8 @@
 
     .home__banner--img {
         height: 250px;
-        object-fit:contain;
+        /* object-fit:contain; */
+        object-fit: cover;
     }
 /* 
     Otra Opción del Banner con Background en vez de con img
