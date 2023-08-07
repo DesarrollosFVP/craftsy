@@ -32,6 +32,9 @@
   text-align: center;
 }
 
+.home__main__article {
+  position: relative;
+}
 
 .home__main__article img {
   width: 100%;
@@ -39,6 +42,19 @@
 
 .home__main__article--description {
   margin: 20px 0;
+}
+
+.home__main__article--discount {
+  color: white;
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: black;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  opacity: 0.8;
 }
 
 .home__main__article--description p {
@@ -81,6 +97,16 @@
   width: 100%;
   border: 1px solid gray;
   margin-bottom: 10px;
+}
+
+.home__aside__section__article--name span {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.home__aside__section__article--name:hover span {
+  color:red;
+  opacity: 1;
 }
 
 .home__aside__section--ads {
